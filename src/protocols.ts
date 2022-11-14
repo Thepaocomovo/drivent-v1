@@ -10,6 +10,7 @@ export type ViaCEPAddress = {
   localidade?: string,
   uf: string,
   cidade?: string,
+  erro?: boolean
 };
 
 export type RequestError = {
